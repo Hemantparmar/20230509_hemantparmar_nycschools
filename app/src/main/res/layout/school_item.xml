@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/school_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/gallery_thumb"
+        android:backgroundTint="@android:color/darker_gray">
+
+        <ImageView
+            android:id="@+id/info_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_dialog_info"
+            app:tint="#4CAF50" />
+
+        <TextView
+            android:id="@+id/school_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:includeFontPadding="true"
+            android:lines="2"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+<!--</layout>-->
